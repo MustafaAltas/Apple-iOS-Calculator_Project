@@ -21,7 +21,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 0.5fr repeat(2,2fr) 1fr;
-  border: 1px solid black;
+
   gap: 0.2rem;
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.5);
@@ -47,6 +47,7 @@ body {
     height: 80px;
     width: 80px;
     object-fit: cover;
+
 }
 #sıfır {
     border-radius: 50px;
@@ -118,4 +119,14 @@ body {
 #sıfır:hover,
 #nokta:hover {
     background-color: #1a1818;
+}
+
+.hr {
+  grid-column: 2 / span 2;
+}
+h2 {
+  width: 50%;
+  height: 5px;
+  border-style: inset;
+  color: #9b550f;
 }
