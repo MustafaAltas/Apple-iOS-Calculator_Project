@@ -29,15 +29,54 @@ body {
 }
 .content1 {
   grid-column: 1 / span 4;
+  display: flex;
+  justify-content: space-between;
+}
+#başlık_sağ {
+  display: flex;
+  align-items: flex-start;
 
+}
+a p {
+  font-size: 10px;
+  margin-top: -1px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:link {
+  color: white;
+}
+a:hover {
+  color: rgb(235, 121, 121);
+}
+
+img {
+  width: 20px;
+  height: 10px;
+}
+
+#başlık_sol {
+  color: white;
+  font-size: 10px;
 }
 .content2 {
   grid-column: 1 / span 4;
-  grid-row: 2 / span 2;
   color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
 }
 .content3 {
   grid-column: 1 / span 4;
+  grid-row: 3 / span 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-bottom: 0.5rem;
+  font-size: 2rem;
 }
 .content_0_tuşu {
     grid-column: 1 / span 2;
