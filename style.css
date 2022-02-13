@@ -1,0 +1,121 @@
+* {
+  margin: 0x;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+
+body {
+    background-image: url(./img/Apple-September-Event-California-Streaming-BasicAppleGuy-iDownloadBlog-6K.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+  width: 25rem;
+  height: 42rem;
+  margin: auto;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 0.5fr repeat(2,2fr) 1fr;
+  border: 1px solid black;
+  gap: 0.2rem;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+.content1 {
+  grid-column: 1 / span 4;
+
+}
+.content2 {
+  grid-column: 1 / span 4;
+  grid-row: 2 / span 2;
+  color: white;
+}
+.content3 {
+  grid-column: 1 / span 4;
+}
+.content_0_tuşu {
+    grid-column: 1 / span 2;
+}
+.tuş {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+}
+#sıfır {
+    border-radius: 50px;
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bölme,
+#çarpı,
+#eksi,
+#artı, #eşittir {
+    background-color: #f29e4b;
+    font-size: 2rem;
+    color: white;
+    border: none;
+}
+#bölme:hover,
+#çarpı:hover,
+#eksi:hover,
+#artı:hover, #eşittir:hover {
+    background-color: #9b550f;
+}
+
+#ac_tuş,
+#artı_eksi_tuş,
+#modülüs {
+    background-color: #a4a4a4;
+    font-size: 2rem;
+    border: none;
+}
+#ac_tuş:hover,
+#artı_eksi_tuş:hover,
+#modülüs:hover {
+    background-color: #524b4b;
+} 
+#sekiz,
+#dokuz,
+#yedi,
+#altı,
+#beş,
+#dört,
+#üç,
+#iki,
+#bir,
+#sıfır,
+#nokta {
+    background-color: #333333;
+    font-size: 2rem;
+    color: white;
+    border: none;
+}
+
+#sekiz:hover,
+#dokuz:hover,
+#yedi:hover,
+#altı:hover,
+#beş:hover,
+#dört:hover,
+#üç:hover,
+#iki:hover,
+#bir:hover,
+#sıfır:hover,
+#nokta:hover {
+    background-color: #1a1818;
+}
