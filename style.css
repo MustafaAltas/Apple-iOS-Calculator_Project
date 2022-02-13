@@ -76,7 +76,9 @@ img {
   justify-content: flex-end;
   align-items: flex-end;
   padding-bottom: 0.5rem;
-  font-size: 2rem;
+  font-size: 3rem;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
 }
 .content_0_tuşu {
     grid-column: 1 / span 2;
@@ -87,6 +89,12 @@ img {
     width: 80px;
     object-fit: cover;
 
+}
+.rakamlar {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
 }
 #sıfır {
     border-radius: 50px;

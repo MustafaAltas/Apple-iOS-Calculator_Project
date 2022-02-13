@@ -22,26 +22,17 @@ if (new Date().getMinutes() < 10 && new Date().getMinutes() >= 0) {
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/
 
 //**RAKAMLARIN TANIMLANMASI */
-let sıfır = document.getElementById("sıfır");
-let bir = document.getElementById("bir");
-let iki = document.getElementById("iki");
-let üç = document.getElementById("üç");
-let dört = document.getElementById("dört");
-let beş = document.getElementById("beş");
-let altı = document.getElementById("altı");
-let yedi = document.getElementById("yedi");
-let sekiz = document.getElementById("sekiz");
-let dokuz = document.getElementById("dokuz");
-let nokta = document.getElementById("nokta");
 
-//**OPERATÖRLERİN TANIMLANMASI */
-const modülüs = document.getElementById("modülüs");
-const bölme = document.getElementById("bölme");
-const çarpı = document.getElementById("çarpı");
-const eksi = document.getElementById("eksi");
-const artı = document.getElementById("artı");
-const eşittir = document.getElementById("eşittir");
-const ac_tuş = document.getElementById("ac_tuş");
+window.addEventListener("load",(event) => {
+    let rakamlar = document.querySelectorAll(".rakamlar");
+    for (let i = 0; i < rakamlar.length; i++) {
+        rakamlar[i].addEventListener("click",(event) => {
+            document.querySelector(".content3").innerHTML += rakamlar[i].value;
+        },false)
+    }
+
+    
+})
 
 
 
